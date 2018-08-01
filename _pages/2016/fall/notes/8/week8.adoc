@@ -735,7 +735,8 @@ image::success.png[alt="success", width=200]
 +
 [source]
 ----
-{% extends "layout.html" %}
+
+* I removed an extends tag here.
 
 {% block title %}
 Registration Failed
